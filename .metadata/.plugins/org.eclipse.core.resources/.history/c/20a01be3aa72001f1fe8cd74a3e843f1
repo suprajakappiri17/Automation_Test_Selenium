@@ -1,0 +1,12 @@
+package seleniumTest;
+
+public class BrowserLaunch {
+
+	public static void main(String[] args) {
+		
+		//TC 1 Launch the edge browser
+		System.out.println("Siri");
+
+	}
+
+}

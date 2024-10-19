@@ -1,0 +1,44 @@
+package seleniumTest;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.*;
+
+
+public class BrowserLaunch {
+
+	public static void main(String[] args) throws InterruptedException{
+
+
+		//TC 1 Launch the edge browser
+
+		System.setProperty("webdriver.edge.driver", "E:\\July 2024\\msedgedriver.exe");
+		WebDriver driver=new EdgeDriver();
+
+
+		//TC- 2 go to the URL
+		driver.get("https://www.selenium.dev/");
+
+
+		//TC - 3 wait for 5 sec
+		Thread.sleep(5000);
+
+		//TC- 4 manage the browser window to maximize
+		driver.manage().window().maximize();
+
+		//wait for 5 sec
+		Thread.sleep(5000);
+
+		//TC- 5 manage the browser window to minimize
+		driver.manage().window().minimize();
+
+		//wait for 5 sec
+		Thread.sleep(5000);		
+
+
+		//TC6 -  close the browser
+		driver.close();
+
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package seleniumTestMaven;
+
+import org.testng.annotations.Test;
+
+public class Navigations {
+  @Test
+  public void f() {
+  }
+}
