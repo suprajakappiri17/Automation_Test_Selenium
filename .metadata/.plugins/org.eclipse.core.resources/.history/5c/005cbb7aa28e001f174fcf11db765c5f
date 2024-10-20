@@ -14,5 +14,13 @@ public class LoginPage {
 			 driver=new EdgeDriver();
 		}
 	  
-		
+		@Test
+		public void test2() throws InterruptedException {
+
+			//TC- 2 go to the URL
+			driver.get("https://www.selenium.dev/");
+
+			// wait for 5 sec
+			Thread.sleep(5000);
+		}
 }

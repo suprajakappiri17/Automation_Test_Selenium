@@ -2948,3 +2948,9 @@ java -ea -classpath D:\eclipse\configuration\org.eclipse.osgi\998\0\.cp\lib\test
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-20 10:25:35.289
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-20 10:46:37.043
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-10-20 10:46:37.055
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
